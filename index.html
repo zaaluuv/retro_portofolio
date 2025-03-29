@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Retro Website</title>
+  <link rel="stylesheet" href="./styles.css">
+  <!-- Font Awesome untuk icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Layout Utama -->
+  <div class="container">
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="browser-bar">
+        <div class="browser-controls">
+          <div class="control yellow"></div>
+          <div class="control green"></div>
+          <div class="control red"></div>
+        </div>
+        
+        <div class="address-bar">
+          <span>www.zaawebsite.com</span>
+        </div>
+        
+        <div class="window-controls">
+          <button class="window-btn">_</button>
+          <button class="window-btn">□</button>
+          <button class="window-btn">×</button>
+        </div>
+      </div>
+      
+      <nav class="nav-menu">
+        <ul>
+          <li class="active">
+            <a href="#home">
+              <i class="fas fa-home"></i>
+              <span>Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="#about">
+              <i class="fas fa-user"></i>
+              <span>About</span>
+            </a>
+          </li>
+          <li>
+            <a href="#projects">
+              <i class="fas fa-folder"></i>
+              <span>Projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="#contact">
+              <i class="fas fa-envelope"></i>
+              <span>Contact</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    
+    <!-- Konten Utama -->
+    <main class="content">
+      <div class="profile-card-container">
+        <!-- Profile Card Kiri -->
+        <div class="profile-card">
+          <div class="card-inner">
+            <!-- Bagian Depan Kartu -->
+            <div class="card-front teal">
+              <div class="card-header">
+                <div class="browser-controls">
+                  <div class="control yellow"></div>
+                  <div class="control green"></div>
+                  <div class="control red"></div>
+                </div>
+                <div class="card-title">About Me</div>
+                <div class="window-controls">
+                  <button class="window-btn">×</button>
+                </div>
+              </div>
+
+              <div class="card-content">
+                <head>
+                  <title>Image</title>
+                </head>
+                <body>
+                    <img src="./pfp.jpg" alt="" style="width: 96px; height: 96px; border-radius: 50%; object-fit: cover; margin-bottom: 16px;">
+                </body>
+                <h3>About Me</h3>
+                <p style="font-size: medium; font-family: 'Times New Roman', Times, serif; margin: 5px; padding: 5px;">Hello, just call me Zaa. </p>
+                <div class="flip-hint">(Click to flip)</div>
+              </div>
+            </div>
+            
+            <!-- Bagian Belakang Kartu -->
+            <div class="card-back teal">
+              <div class="card-header">
+                <div class="browser-controls">
+                  <div class="control yellow"></div>
+                  <div class="control green"></div>
+                  <div class="control red"></div>
+                </div>
+                <div class="card-title">Skills</div>
+                <div class="window-controls">
+                  <button class="window-btn">×</button>
+                </div>
+              </div>
+              <div class="card-content">
+                <h3>Skills</h3>
+                <ul class="skill-list">
+                  <li><div class="bullet"><label>
+                    <input type="checkbox" checked disabled>
+                    <span class="checkmark"></span>
+                    </label></div>HTML</li>
+                  <li><div class="bullet"><label>
+                    <input type="checkbox" checked disabled>
+                    <span class="checkmark"></span>
+                    </label></div>CSS</li>
+                  <li><div class="bullet"><label>
+                    <input type="checkbox" checked disabled>
+                    <span class="checkmark"></span>
+                    </label></div>JavaScript</li>
+                  <li><div class="bullet"><label>
+                    <input type="checkbox" disabled>
+                    <span class="checkmark"></span>
+                    </label></div>UI/UX Design</li>
+                </ul>
+                <div class="flip-hint">(Click to flip back)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Konten Tengah -->
+        <div class="main-content">
+          <div class="window">
+            <div class="card-header">
+              <div class="browser-controls">
+                <div class="control yellow"></div>
+                <div class="control green"></div>
+                <div class="control red"></div>
+              </div>
+              <div class="card-title">Welcome</div>
+              <div class="window-controls">
+                <button class="window-btn">×</button>
+              </div>
+            </div>
+            
+            <div class="window-content">
+              <div class="text-center">
+                <h1>Retro Website</h1>
+                <p>A nostalgic journey back to the early web</p>
+              </div>
+              
+              <section class="content-section">
+                <h2 class="section-title yellow-bg">About Me</h2>
+                <p>Welcome to my retro-inspired website! Just an Astrophile who's interested in Technology. I'm just learning VsCode for the first time, but I'm trying to put my best into this.</p>
+              </section>
+              
+              <section class="content-section">
+                <h2 class="section-title teal-bg">My Projects</h2>
+                <div class="projects-grid">
+                  <div class="project-card">
+                    <div class="project-image pink-bg">
+                      <img
+                      src="./project_1.jpg"
+                      alt="prject satu"
+                      style="width: 100px; height: 80px;">
+                    </div>
+                    <div class="teks">
+                    <h3>PROJECT 1</h3>
+                    <p>A retro-inspired web application</p>
+                    </div>
+                    <p class="baris-ketiga">
+                      <span>This web was created by our coach and we're continuing it. The picture above is an example for this project, we mmake simpler.</span>
+                      </p>
+                  </div>
+
+                  <div class="project-card">
+                    <div class="project-image yellow-bg">
+                      <img
+                      src="./project_2.jpg"
+                      alt="project dua"
+                      style="width: 100px; height: 80px;"
+                      >
+                    </div>
+                    <div class="project-kedua">
+                    <h3>PROJECT 2</h3>
+                    <p>A nostalgic UI component library.</p>
+                    </div>
+                    <p class="teks-kedua">
+                      <span>With this project, now the books you want to read can be found more easily and anywhere</span>
+                    </p>
+                  </div>
+                </div>
+              </section>
+              
+              <section class="content-section">
+                <h2 class="section-title pink-bg">Contact</h2>
+                <div class="contact-info">
+                  <div class="contact-item">
+                    <div class="contact-bullet teal-bg"></div>
+                    <span>secret@gmail.com</span>
+                  </div>
+                  <div class="contact-item">
+                    <div class="contact-bullet yellow-bg"></div>
+                    <span>@zaaluuv</span>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Profile Card Kanan -->
+        <div class="profile-card">
+          <div class="card-inner">
+            <!-- Bagian Depan Kartu -->
+            <div class="card-front yellow">
+              <div class="card-header">
+                <div class="browser-controls">
+                  <div class="control yellow"></div>
+                  <div class="control green"></div>
+                  <div class="control red"></div>
+                </div>
+                <div class="card-title">Contact</div>
+                <div class="window-controls">
+                  <button class="window-btn">×</button>
+                </div>
+              </div>
+              <div class="card-content">
+                <div class="profile-image"></div>
+                <h3>Contact</h3>
+                <p>Ask me if you have any question</p>
+                <div class="flip-hint">(Click to flip)</div>
+              </div>
+            </div>
+            
+            <!-- Bagian Belakang Kartu -->
+            <div class="card-back yellow">
+              <div class="card-header">
+                <div class="browser-controls">
+                  <div class="control yellow"></div>
+                  <div class="control green"></div>
+                  <div class="control red"></div>
+                </div>
+                <div class="card-title">Links</div>
+                <div class="window-controls">
+                  <button class="window-btn">×</button>
+                </div>
+              </div>
+              <div class="card-content">
+                <h3>Links</h3>
+                <ul class="skill-list">
+                  <li><div class="bullet">
+                    <a href="https://github.com/zaaluuv" target="_blank"></div>GitHub</li></a>
+                  <li><div class="bullet">
+                    <a href="https://Instagram.com/zhirh_w" target="_blank"></div>Instagram</li></a>
+                    <li><div class="bullet">
+                      <a href="https://t.me/zzaastrophile" target="_blank"></div>Telegram</li></a>
+                  <li><div class="bullet"></div>secret@gmail.com</li>
+                </ul>
+                <div class="flip-hint">(Click to flip back)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    // JavaScript sederhana untuk flip card
+    document.querySelectorAll('.profile-card').forEach(card => {
+      card.addEventListener('click', function() {
+        this.querySelector('.card-inner').classList.toggle('is-flipped');
+      });
+    });
+
+    // JavaScript untuk navigasi
+    document.querySelectorAll('.nav-menu li').forEach(item => {
+      item.addEventListener('click', function() {
+        document.querySelectorAll('.nav-menu li').forEach(i => {
+          i.classList.remove('active');
+        });
+        this.classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>
