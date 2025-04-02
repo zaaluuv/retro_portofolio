@@ -354,28 +354,38 @@ body::before {
 }
 
 .teks {
-  margin-top: 8px;
-  font-size: medium;
-  font-weight: bold;
-  text-align: left;
+  text-indent: 1px;
+  padding-left: 110px;
+  font-size: small;
+  position: relative;
+  top: -80px;
+  line-height: 1.5;
 }
 
 .baris-ketiga {
-  margin-top: 20px;
+  text-indent: 1px;
+  margin-top: 0px;
   font-size: small;
+  position: relative;
+  top: -30px;
   text-align: left;
 }
 
 .project-kedua {
-  margin-top: 8px;
-  font-size: medium;
-  font-weight: bold;
-  text-align: left;
+  text-indent: 1px;
+  padding-left: 110px;
+  font-size: small;
+  position: relative;
+  top: -80px;
+  line-height: 1.5;
 }
 
 .teks-kedua {
-  margin-top: 20px;
+  text-indent: 1px;
+  margin-top: 0px;
   font-size: small;
+  position: relative;
+  top: -30px;
   text-align: left;
 }
 
