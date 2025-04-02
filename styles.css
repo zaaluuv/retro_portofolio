@@ -263,10 +263,10 @@ body::before {
   margin-bottom: 8px;
 }
 
-.bullet {
+/* .bullet {
   width: 12px;
   height: 12px;
-}
+} */
 
 /* .checkbox-container input {
     display: none;
@@ -337,7 +337,7 @@ body::before {
 
 .projects-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   gap: 16px;
 }
 
