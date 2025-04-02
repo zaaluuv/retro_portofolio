@@ -348,8 +348,8 @@ body::before {
 }
 
 .project-image {
-  height: 80px;
-  width: auto;
+  height: 140px;
+  width: 250px;
   max-width: 100%;
 }
 
