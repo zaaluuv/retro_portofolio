@@ -349,8 +349,10 @@ body::before {
 
 .project-image {
   height: 80px;
-  width: 5px;
+  width: auto;
+  max-width: 100%;
 }
+
 .teks {
   text-indent: 1px;
   padding-left: 110px;
@@ -381,7 +383,7 @@ body::before {
   text-indent: 1px;
   font-size: small;
   position: relative;
-  top: -50px;
+  top: -30px;
   line-height: 1.5;
 }
 
