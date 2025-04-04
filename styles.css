@@ -348,9 +348,25 @@ body::before {
 }
 
 .project-image {
-  height:110px;
-  width: 160px;
+  height:150px;
+  width: auto;
   max-width: 100%;
+  background-image: url(./Screenshot\ \(4\).png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 3px solid rgb(146, 112, 2);
+}
+
+.project-image-dua {
+  height:150px;
+  width: auto;
+  max-width: 100%;
+  background-image: url(./Screenshot\ \(3\).png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 3px solid rgb(146, 112, 2);
 }
 
 .teks {
